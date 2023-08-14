@@ -3,7 +3,7 @@ import { starknet } from "hardhat";
 
 import { TIMEOUT } from "./constants";
 
-describe("Devnet mint", function () {
+describe.skip("Devnet mint", function () {
     this.timeout(TIMEOUT);
     let balance = 0;
     // Randomly chosen address

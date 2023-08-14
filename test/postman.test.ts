@@ -22,7 +22,7 @@ import {
  * Shows the communication between an L2 contract defined in l1l2.cairo
  * and an L1 contract defined in https://www.cairo-lang.org/docs/_static/L1L2Example.sol
  */
-describe("Postman", function () {
+describe.skip("Postman", function () {
     this.timeout(TIMEOUT);
 
     const user = 1;

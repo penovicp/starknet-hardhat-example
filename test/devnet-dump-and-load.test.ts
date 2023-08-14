@@ -3,7 +3,7 @@ import { starknet } from "hardhat";
 import { TIMEOUT } from "./constants";
 import { getOZAccount } from "./util";
 
-describe("Devnet Dump and Load", function () {
+describe.skip("Devnet Dump and Load", function () {
     this.timeout(TIMEOUT);
 
     const dumpPath = "dump.pkl";

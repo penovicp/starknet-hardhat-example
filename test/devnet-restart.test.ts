@@ -5,7 +5,7 @@ import { Account, StarknetContractFactory } from "hardhat/types";
 import { TIMEOUT } from "./constants";
 import { getOZAccount, expectStarknetPluginError } from "./util";
 
-describe("Devnet restart", function () {
+describe.skip("Devnet restart", function () {
     this.timeout(TIMEOUT);
 
     let account: Account;

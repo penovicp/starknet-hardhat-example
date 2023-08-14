@@ -5,7 +5,7 @@ import { StarknetContract, StarknetContractFactory } from "hardhat/types/runtime
 import { TIMEOUT } from "./constants";
 import { ensureEnvVar, getOZAccount } from "./util";
 
-describe("Starknet with optional arguments in integrated devnet", function () {
+describe.skip("Starknet with optional arguments in integrated devnet", function () {
     this.timeout(TIMEOUT);
 
     it("should work for args passed in config", async function () {

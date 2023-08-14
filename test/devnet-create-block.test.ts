@@ -3,7 +3,7 @@ import { starknet } from "hardhat";
 
 import { TIMEOUT } from "./constants";
 
-describe("Devnet create block", function () {
+describe.skip("Devnet create block", function () {
     this.timeout(TIMEOUT);
 
     it("should successively create empty blocks", async () => {

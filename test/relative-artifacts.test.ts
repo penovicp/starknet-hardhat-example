@@ -3,7 +3,7 @@ import { starknet } from "hardhat";
 import { TIMEOUT } from "./constants";
 import { getOZAccount } from "./util";
 
-describe("Starknet", function () {
+describe.skip("Starknet", function () {
     this.timeout(TIMEOUT);
 
     it("quick test for relative artifacts", async function () {

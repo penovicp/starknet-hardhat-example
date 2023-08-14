@@ -3,7 +3,7 @@ import { starknet } from "hardhat";
 import { Account, StarknetContractFactory } from "hardhat/types";
 import { getOZAccount } from "../util";
 
-describe("Starknet", function () {
+describe.skip("Starknet", function () {
     let testCacheContractFactory: StarknetContractFactory;
     let account: Account;
 

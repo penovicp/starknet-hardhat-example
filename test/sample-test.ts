@@ -32,7 +32,7 @@ describe("Starknet", function () {
         contractFactory = await starknet.getContractFactory("contract");
         await account.declare(contractFactory);
 
-        eventsContractFactory = await starknet.getContractFactory("events");
+        eventsContractFactory = await starknet.getContractFactory("events0");
         await account.declare(eventsContractFactory);
         console.log("Declared classes");
 

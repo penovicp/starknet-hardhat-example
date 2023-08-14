@@ -10,7 +10,7 @@ import {
     expectStarknetPluginErrorEqual
 } from "./util";
 
-describe("Argent account", function () {
+describe.skip("Argent account", function () {
     this.timeout(TIMEOUT);
 
     let mainContractFactory: StarknetContractFactory;

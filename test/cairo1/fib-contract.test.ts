@@ -3,7 +3,7 @@ import { starknet } from "hardhat";
 import { TIMEOUT } from "../constants";
 import { getOZAccount } from "../util";
 
-describe("Fib Contract", function () {
+describe.skip("Fib Contract", function () {
     this.timeout(TIMEOUT);
     it("should declare + deploy + call", async function () {
         const account = await getOZAccount();

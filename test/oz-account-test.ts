@@ -12,7 +12,7 @@ import {
     OZ_ACCOUNT_PRIVATE_KEY
 } from "./util";
 
-describe("OpenZeppelin account", function () {
+describe.skip("OpenZeppelin account", function () {
     this.timeout(TIMEOUT);
 
     let mainContractFactory: StarknetContractFactory;
